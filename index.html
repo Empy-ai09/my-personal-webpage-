@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Portofolio Zahwan</title>
+
+<!-- Import Google Fonts: Poppins -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+<!-- FontAwesome Icons CDN -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="styles.css" />
+
+<!-- GSAP Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+
+<!-- ScrollReveal Library -->
+<script src="https://unpkg.com/scrollreveal" defer></script>
+
+<!-- Script -->
+<script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="hero glass">
+      <img
+        src="assets/profile.jpg"
+        alt="Foto Profil Zahwan"
+        class="profile-pic"
+      />
+      <h1>Zahwan</h1>
+      <h2>Frontend Developer / UI Designer</h2>
+      <p class="tagline">
+        "mencoba hal baru"
+      </p>
+    </header>
+
+    <section class="about glass">
+      <h2>
+        <i class="fas fa-user-circle icon"></i> Tentang Saya
+      </h2>
+      <p>
+        saya hanya anak SMK biasa,
+        bedanya saya selalu ingin mencoba hal baru, dan selalu terlintas ide krearif/aneh
+        
+      </p>
+      <h3>Skill Utama:</h3>
+      <ul class="skills">
+        <li><i class="fab fa-html5 colored"></i> HTML</li>
+        <li><i class="fab fa-css3-alt colored"></i> CSS</li>
+        <li><i class="fab fa-js colored"></i> JavaScript</li>
+        <li><i class="fas fa-pencil-ruler colored"></i> Figma</li>
+      </ul>
+    </section>
+
+    <section class="projects glass">
+      <h2>
+        <i class="fas fa-folder-open icon"></i> Proyek / Karya
+      </h2>
+      <div class="project-list">
+        <article class="project-item">
+          <h3>Proyek Dashboard</h3>
+          <p>Aplikasi dashboard modern dengan realtime data.</p>
+          <a href="#" class="btn">Lihat detail</a>
+        </article>
+        <article class="project-item">
+          <h3>Website Portfolio</h3>
+          <p>Website personal yang responsif dan aesthetic.</p>
+          <a href="#" class="btn">Lihat detail</a>
+        </article>
+        <article class="project-item">
+          <h3>Aplikasi Todolist</h3>
+          <p>Aplikasi todolist dengan interaksi animasi bagus.</p>
+          <a href="#" class="btn">Lihat detail</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact glass">
+      <h2>
+        <i class="fas fa-envelope icon"></i> Kontak
+      </h2>
+      <p>Email: <span id="email">adrama009@gmail.com</span></p>
+      <div class="social-links">
+        <a href="#" aria-label="Instagram" title="Instagram"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="#" aria-label="GitHub" title="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="#" aria-label="LinkedIn" title="LinkedIn"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+      <button id="copyEmail" class="btn">Copy Email</button>
+      <div id="toast" class="toast">Email berhasil disalin!</div>
+    </section>
+
+    <footer class="footer glass">
+      <p>© 2025 Zahwan</p>
+    </footer>
+  </main>
+</body>
+</html>
+</content>
+</create_file>
