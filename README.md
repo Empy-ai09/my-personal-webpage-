@@ -19,7 +19,7 @@ Temukan project, skill, dan semangat saya dalam dunia teknologi:
 
 ## Preview
 
-![Preview](https://via.placeholder.com/800x400?text=Preview+Website+Zahwan)
+![Image](https://github.com/user-attachments/assets/846c16e9-201b-4b30-97a4-c61bf30e0428)
 
 ---
 
