@@ -1,6 +1,6 @@
 # Zahwan's Portfolio ✨
 
-![Portfolio Banner](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
+![Image](https://github.com/user-attachments/assets/261bb080-8899-4b31-8d21-3f7656d7b239)
 
 Selamat datang di portofolio digital saya!  
 Temukan project, skill, dan semangat saya dalam dunia teknologi:
